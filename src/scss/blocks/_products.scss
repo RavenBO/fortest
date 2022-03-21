@@ -1,0 +1,21 @@
+.products {
+    padding: 52px 0 183px 0;
+    min-height: 941px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 220px;
+        margin-top: 65px;
+    }
+    &__subs {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        @include ffont(600);
+        margin-top: 30px;
+    }
+}

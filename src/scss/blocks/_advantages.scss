@@ -1,0 +1,19 @@
+.advantages {
+    min-height: 1024px;
+    padding: 140px 0;
+    &__wrapper {
+        display: flex;
+        margin-top: 127px;
+    }
+    &__list {
+        list-style-type: none;
+    }
+    &__item {
+        width: 480px;
+
+    }
+    &__item-1 {
+        width: 380px;
+        margin-left: 120px;
+    }
+}

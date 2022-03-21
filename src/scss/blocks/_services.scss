@@ -1,0 +1,25 @@
+.services {
+    padding: 140px 0 56px 0;
+    min-height: 1129px;
+    &__block{
+        display: flex;
+        margin-top: 140px;
+    }
+    &__list {
+        list-style-type: none;
+        text-align: center;
+        li {
+            width: 220px;
+            min-height: 50px;
+            background: rgba(183, 152, 224, 0.5);
+            box-shadow: 2px 4px 10px rgba(183, 152, 224, 0.5);
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 12px;
+            line-height: 25px;
+            @include ffont(400);
+            padding: 19px;
+        }
+    }
+}

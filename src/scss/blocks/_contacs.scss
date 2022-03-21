@@ -1,0 +1,38 @@
+.contacs {
+    min-height: 768px;
+    padding-top: 118px;
+    background: linear-gradient(139.22deg, #DDCAF7 36.03%, #C2F4F4 79.52%);
+    &__title {
+        font-size: 25px;
+        line-height: 30px;
+        @include sfont (500);
+        margin-top: 60px;
+        width: 540px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -30px;
+    }
+    &__list {
+        margin-top: 108px;
+        list-style-type: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        li {
+            text-align: left;
+            margin-top: 15px;
+            span{
+                padding-left: 55px;
+            }
+        }
+    }
+    &__list-img {
+        margin-right: 31px;
+        width: 24px;
+        height: 24px;
+        img{
+            width: 100%;
+        }
+    }
+}

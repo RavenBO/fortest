@@ -1,0 +1,187 @@
+.design {
+    min-height: 1413px;
+    padding: 140px 0 237px 0;
+    &__wrapper {
+        display: flex;
+    }
+    &__plan {
+        margin-left: 300px;
+        margin-top: 112px;
+    }
+    &__list {
+        list-style-type: none;
+        li {
+            display: block;
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            background-color: $green;
+            text-align: center;
+            font-size: 14px;
+            line-height: 30px;
+            @include ffont(600);
+            color: #fff;
+            &:first-child{
+                position: relative;
+                margin-bottom: 40px;
+                &::after{
+                    position: absolute;
+                    content: "";
+                    display: block;
+                    width: 5px;
+                    height: 866px;
+                    background-color: $green;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    z-index: -1;
+                }
+                &::before {                    
+                    content:"Знакомство с клиентом, описание заказа";
+                    position: absolute;
+                    left: -235px;
+                    width: 180px;
+                    min-height: 50px;                    
+                    text-align: right;
+                    color: #000;
+                    @include ffont(400);
+                    line-height: 25px;
+                }
+            }
+            &:nth-child(2){
+                position: relative;
+                margin-bottom: 41px;
+                &::before{
+                    content:"Ми скидаємо приклади своїх робіт, також посилання на інстаграм";
+                    position: absolute;
+                    left: 85px;
+                    width: 180px;
+                    min-height: 50px;                    
+                    text-align: left;
+                    color: #000;
+                    @include ffont(400);
+                    line-height: 25px;
+                }
+            }
+            &:nth-child(3){
+                margin-bottom: 70px;
+                position: relative;
+                &::before {                    
+                    content:"Відпрацювання замовлення, вихідні дані від клієнта, і все це відправляємо дизайнеру";
+                    position: absolute;
+                    left: -235px;
+                    width: 180px;
+                    min-height: 50px;                    
+                    text-align: right;
+                    color: #000;
+                    @include ffont(400);
+                    line-height: 25px;
+                }
+            }
+            &:nth-child(4){
+                margin-bottom: 100px;
+                position: relative;
+                &::before{
+                    content:"Макет від дизайнера клієнту даємо на затвердження, обговорюємо деталі малюнку,вносимо зміни та коригування.";
+                    position: absolute;
+                    left: 85px;
+                    width: 180px;
+                    min-height: 50px;                    
+                    text-align: left;
+                    color: #000;
+                    @include ffont(400);
+                    line-height: 25px;
+                }
+            }
+            &:nth-child(5){
+                margin-bottom: 100px;
+                position: relative;
+                &::before {                    
+                    content:"Підбір футболки, толстовки: колір, розмір, тканина, виробника. Робимо виміри у разі потреби.";
+                    position: absolute;
+                    left: -235px;
+                    width: 180px;
+                    min-height: 50px;                    
+                    text-align: right;
+                    color: #000;
+                    @include ffont(400);
+                    line-height: 25px;
+                }
+            }
+            &:nth-child(6){
+                margin-bottom: 90px;
+                position: relative;
+                &::before{
+                    content:"Макет готовий, футболка теж, запускаємо у виробництво";
+                    position: absolute;
+                    left: 85px;
+                    width: 180px;
+                    min-height: 50px;                    
+                    text-align: left;
+                    color: #000;
+                    @include ffont(400);
+                    line-height: 25px;
+                }
+            }
+            &:nth-child(7){
+                margin-bottom: 100px;
+                position: relative;
+                &::before {                    
+                    content:"Роздруковуємо малюнок на папері, з'ясовуємо місце розташування малюнка";
+                    position: absolute;
+                    left: -235px;
+                    width: 180px;
+                    min-height: 50px;                    
+                    text-align: right;
+                    color: #000;
+                    @include ffont(400);
+                    line-height: 25px;
+                }
+            }
+            &:nth-child(8){
+                margin-bottom: 96px;
+                position: relative;
+                &::before{
+                    content:"Замовлення виконано, упаковуємо, кладемо інструкцію,                    планер у подарунок";
+                    position: absolute;
+                    left: 85px;
+                    width: 180px;
+                    min-height: 50px;                    
+                    text-align: left;
+                    color: #000;
+                    @include ffont(400);
+                    line-height: 25px;
+                }
+            }
+            &:nth-child(9){
+                position: relative;
+                &::before {                    
+                    content:"Доставка по індрайверу або самовивіз";
+                    position: absolute;
+                    left: -235px;
+                    width: 180px;
+                    min-height: 50px;                    
+                    text-align: right;
+                    color: #000;
+                    @include ffont(400);
+                    line-height: 25px;
+                    bottom: 0;
+                }
+            }
+        }
+    }
+    &__player {
+        margin-top: 120px;
+        background: url(../img/player.jpg) center center/cover no-repeat;
+        width: 438px;
+        height: 886px;
+        padding-top: 80px;
+        
+    }
+    &__video{
+        display: block;
+        width: 410px;
+        height: 798px;
+        margin: 0 auto;
+        border-radius: 0px 0px 60px 60px; 
+    }
+}

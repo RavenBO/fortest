@@ -1,0 +1,40 @@
+.online {
+    padding: 59px 0 194px 0;
+    min-height: 903px;
+    &__block {
+        min-height: 650px;
+        padding: 81px 0 27px 0;
+        background: #FCFAFE;
+        box-shadow: 0px 10px 20px 10px rgba(183, 152, 224, 0.5);
+        border-radius: 8px;
+    }
+    &__wrapper {
+        margin: 0 auto;
+        width: 907px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+    &__item {
+        width: 199px;
+    }
+    &__subs {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #000000;
+        @include ffont(600);
+    }
+    &__img{
+        width: 64px;
+        height: 64px;
+        margin: 0 auto;
+        margin-top: 54px;
+        img{
+            width: 100%;
+        }
+    }
+}

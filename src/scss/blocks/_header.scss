@@ -1,0 +1,7 @@
+.header {
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    @include sfont(500);
+    text-align: center;
+}

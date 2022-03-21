@@ -1,0 +1,8 @@
+@mixin ffont ($wfont) {
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: $wfont;
+}
+@mixin sfont ($wfont) {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: $wfont;
+}

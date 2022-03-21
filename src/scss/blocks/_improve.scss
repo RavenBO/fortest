@@ -1,0 +1,26 @@
+.improve {
+    min-height: 768px;
+    background: url(../img/bg/sec.jpg) center (center/cover) no-repeat;
+    padding: 132px 560px;
+    &__block {
+        width: 800px;
+        min-height: 500px;
+        background: #100A33;
+        opacity: 0.7;
+        border-radius: 8px;
+        padding: 62px 80px ;
+    }
+    &__title {
+        font-size: 25px;
+        line-height: 45px;
+        color: #FFFFFF;
+        @include ffont(700);
+    }
+    &__subtitle {
+        font-size: 16px;
+        line-height: 25px;
+        color: #FFFFFF;
+        @include ffont(700);
+        margin-top: 62px;
+    }
+}

@@ -1,0 +1,37 @@
+.expectation {
+    min-height: 791px;
+    padding: 140px 0 113px 206px;
+    &__wrapper {
+        display: flex;
+    }
+    &__img {
+        width: 604px;
+        height: 471px;
+        margin-top: 37px;
+        img {
+            width: 100%;
+        }
+    }
+    &__list {
+        margin-left: 112px;
+        list-style-type: none;
+        margin-top: 67px;
+        li {
+            font-size: 16px;
+            line-height: 25px;
+            color: #000000;
+            @include ffont(400);
+            margin-top: 34px;
+            position: relative;
+            &::before {
+                width: 25px;
+                height: 32px;
+                position: absolute;
+                content: "";
+                background: url('../icons/chek.png') center (center /cover) no-repeat;
+                left: -67px;
+                top: -5px
+            }
+        }
+    }
+}
